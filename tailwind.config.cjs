@@ -8,27 +8,27 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        mytheme: {
-          primary: "#a17fff",
-
-          secondary: "#7a6cd1",
-
-          accent: "#f4024b",
-
-          neutral: "#2B232E",
-
-          "base-100": "#2F2D43",
-
-          info: "#2D74D7",
-
-          success: "#74ECB2",
-
-          warning: "#BA9D0D",
-
-          error: "#FC5331",
+        myTheme: {
+          "primary": "#6419E6",
+          
+          "secondary": "#D926A9",
+                   
+          "accent": "#1FB2A6",
+                   
+          "neutral": "#191D24",
+                   
+          "base-100": "#2A303C",
+                   
+          "info": "#3ABFF8",
+                   
+          "success": "#36D399",
+                   
+          "warning": "#FBBD23",
+                   
+          "error": "#F87272",
         },
       },
     ],
   },
-  plugins: [require("daisyui")],
+  plugins: [require("daisyui"), require('@tailwindcss/typography'),],
 };
