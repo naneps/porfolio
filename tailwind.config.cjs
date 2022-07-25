@@ -26,6 +26,7 @@ module.exports = {
           "warning": "#FBBD23",
                    
           "error": "#F87272",
+          'font-gray-100': '#F5F7FA',
         },
       },
     ],
